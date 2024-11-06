@@ -5,3 +5,12 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Taiyo-Kinoshita/comp-1004-.git
 git push -u origin main
+git --version //displays git version
+git init //initialises empty repository
+git status //displays files that are members of the repository of a particular directory
+git add //adds a file to a repository
+git add --all //adds all files in a directory to a repository
+git commit -m “description” //creates a ‘save point’ with respect to all files added
+git push master/origin //Pushes commit to the master branch of the tracked repository
+git fetch master/origin //Acquires most recent iteration of the master branch of the tracked 
+repository & applies to the local repository
